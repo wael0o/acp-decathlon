@@ -1,6 +1,6 @@
-# 📊 Analyse en Composantes Principales (ACP) — Dataset Decathlon
+#  Analyse en Composantes Principales (ACP) — Dataset Decathlon
 
-## 🎯 Objectif du projet
+##  Objectif du projet
 
 L’objectif de ce mini-projet est d’appliquer une **Analyse en Composantes Principales (ACP)** sur le dataset *Decathlon* afin de :
 
@@ -13,7 +13,7 @@ Ce projet a également pour but de montrer une **maîtrise des outils statistiqu
 
 ---
 
-## 📁 Données utilisées
+##  Données utilisées
 
 - **Dataset** : `decathlon` (package *FactoMineR*)
 - **Individus** : athlètes des Jeux Olympiques  
@@ -26,7 +26,7 @@ Les variables étant exprimées dans des **unités différentes**, une **standar
 
 ---
 
-## ⚙️ Méthodologie
+##  Méthodologie
 
 - ACP réalisée avec `FactoMineR::PCA`
 - Standardisation des variables (`scale.unit = TRUE`)
@@ -39,9 +39,9 @@ Les variables étant exprimées dans des **unités différentes**, une **standar
 
 ---
 
-## 📈 Résultats principaux
+##  Résultats principaux
 
-### 🔹 Variance expliquée
+###  Variance expliquée
 
 - **Axe 1** : **35,4 %** de la variance  
 - **Axe 2** : **19,7 %** de la variance  
@@ -51,7 +51,7 @@ Les variables étant exprimées dans des **unités différentes**, une **standar
 
 ---
 
-### 🔹 Interprétation des axes
+###  Interprétation des axes
 
 **Axe 1 (Dim 1)**  
 - Oppose principalement :
@@ -68,7 +68,7 @@ Les variables étant exprimées dans des **unités différentes**, une **standar
 
 ---
 
-### 🔹 Cercle des corrélations
+###  Cercle des corrélations
 
 - Les variables proches sur le cercle sont **fortement corrélées** :
   - 100m, 400m et 110m haies sont très liés,
@@ -80,7 +80,7 @@ Les variables étant exprimées dans des **unités différentes**, une **standar
 
 ---
 
-### 🔹 Projection des individus
+###  Projection des individus
 
 - Les athlètes sont **bien dispersés** sur le plan factoriel.
 - Les individus bien représentés (cos² élevé) se situent loin de l’origine.
@@ -90,7 +90,7 @@ Les variables étant exprimées dans des **unités différentes**, une **standar
 
 ---
 
-## 🧠 Analyse critique
+##  Analyse critique
 
 - L’ACP est **pertinente** sur ce dataset :
   - corrélations marquées entre variables,
@@ -101,7 +101,7 @@ Les variables étant exprimées dans des **unités différentes**, une **standar
 
 ---
 
-## 🛠️ Outils utilisés
+##  Outils utilisés
 
 - **R**
 - Packages :
@@ -111,7 +111,7 @@ Les variables étant exprimées dans des **unités différentes**, une **standar
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 Ce projet illustre comment l’ACP permet de **résumer, structurer et interpréter** un jeu de données multivarié complexe.  
 Au-delà des visualisations, l’accent est mis sur la **compréhension statistique**, l’analyse critique et la capacité à relier les résultats au contexte métier (performance sportive).
